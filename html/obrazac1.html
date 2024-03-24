@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Obrazac za rezervaciju sobe</title>
+        <meta name="application-name" content="Hotel Frano">
+        <meta name="description" content="Opis hotela Frano">
+        <meta name="author" content="Vili Vugrinec">
+        <meta name="keywords" content="hotel,Frano,rezervacija">
+        <link href="../css/vvugrinec21.css" rel="stylesheet" type="text/css">
+        <link href="../css/vvugrinec21_responzivni_dizajn.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Hotel Frano</h1>
+                <div class="logo">
+                    <a href="index.html"><img class="logoslika" src="../dokumenti/slike/logo.png" alt="logo Hotela Frano" ></a>
+                    </div>
+        </header>
+
+        <main>
+            <nav class="navigation"> 
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a class="active" href="obrazac1.html">Obrazac za rezervaciju</a></li>
+                    <li><a href="obrazac2.html">Obrazac za kontakt</a></li>
+                    <li><a href="galerijaslika.html">Galerija slika</a></li>
+                    <li><a href="ponudaproljece.html">Akcijska ponuda proljeće</a></li>
+                    <li><a href="ponudavikend.html">Akcijska ponuda za vikend</a></li>
+                    <li><a href="ponudapraznikrada.html">Akcijska ponuda za praznik rada</a></li>
+                    <li><a href="autor.html">O autoru</a></li>
+                    <li><a href="dokumentacija.html">Dokumentacija</a></li>
+                    <li><a href="/dinamicna">Dinamicna</a></li>
+                    <li><a href="/api/rezervacije">Rezervacije</a></li>
+                </ul>
+        </nav>
+
+        <div class="dropdown">
+            <button class="dropbtn">Izbornik</button>
+            <div class="dropdown-content">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a class="active" href="obrazac1.html">Obrazac za rezervaciju</a></li>
+            <li><a href="obrazac2.html">Obrazac za kontakt</a></li>
+            <li><a href="galerijaslika.html">Galerija slika</a></li>
+            <li><a href="ponudaproljece.html">Akcijska ponuda proljeće</a></li>
+            <li><a href="ponudavikend.html">Akcijska ponuda za vikend</a></li>
+            <li><a href="ponudapraznikrada.html">Akcijska ponuda za praznik rada</a></li>
+            <li><a href="autor.html">O autoru</a></li>
+            <li><a href="dokumentacija.html">Dokumentacija</a></li>
+            <li><a href="/dinamicna">Dinamicna</a></li>
+            <li><a href="/api/rezervacije">Rezervacije</a></li>
+            </ul>
+        </div>
+    </div>
+        
+
+            <br>
+        <div id="obrazac1">
+            <form method="POST" action="/api/rezervacije" novalidate>
+                <fieldset id="podaci">
+                <legend>Podaci korisnika:</legend>
+                <label for="imek">Ime korisnika:</label>
+                  <input type="text" id="imek" name="ime" maxlength="30" required>
+                  <label for="prezime">Prezime korisika:</label>
+                  <input type="text" id="prezime" name="prezime" maxlength="30" required>
+                <label for="broj_mobitela">Broj mobitela:</label>
+                <input type="text" id="broj_mobitela" name="broj_mobitela" required>
+                </fieldset>
+                        <fieldset id="rezervacija">
+                        <legend>Rezervacija sobe:</legend>
+                        <label for="rezervacija_date">Unesite datum:</label>
+                        <input type="date" id="rezervacija_date" name="rezervacija" required>
+                    
+                        <label for="vrijeme">Unesite vrijeme:</label>
+                        <input type="time" id="vrijeme" name="vrijeme" required>
+                        
+                        <label for="broj_osoba">Odaberite veličinu sobe:</label>
+                        <select name="broj_osoba" id="broj_osoba">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <br>
+                        <label> Odaberite broj dana:</label>
+                        <br>
+                        <input type="radio" name="opcija" value="1" checked>1 dan <br>
+                        <input type="radio" name="opcija" value="2">2 dana<br>
+                        <input type="radio" name="opcija" value="3">Više<br>
+                        <br>
+                        <br>
+                        <label for="napomena">Napomena:</label>
+                        <textarea name="napomena" id="napomena" rows="5" cols="20" maxlength="1000" required placeholder="Poruka"></textarea>
+                        <label for="prihvacam_uvjete" id="text_uvjet">Prihvaćam uvjete korištenja</label>
+                        <input type="checkbox" id="prihvacam_uvjete" name="prihvacam_uvjete" value="da" required>
+                    </fieldset>
+            <input type="submit" value="Pošalji">
+            <input type="reset" value="Osvježi">
+        </form>   
+    </div>
+</main>
+<script src="../jsk/vvugrinec21.js"></script>
+<script src="../jsk/rezervacija.js"></script>
+<footer>
+    <p>&copy; Vili Vugrinec 2023.</p>
+    <a href="https://creativecommons.org/licenses/by/2.0/"><img class="cc" src="../dokumenti/slike/by.png" alt="CC BY licenca"></a>
+    <br>
+    <a href="https://validator.w3.org/check?uri=http://spider.foi.hr/OWT/2023/zadaca_02/vvugrinec21/ostalo/obrazac1.html" target="_blank"><img class="HTML5" src="../dokumenti/slike/HTML5.png" alt="HTML Validator"></a>
+</footer>
+</body>
+
+</html> 

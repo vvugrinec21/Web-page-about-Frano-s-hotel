@@ -1,0 +1,193 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+body{
+  background-color: blanchedalmond !important;
+}
+main > body{
+  background-color: blanchedalmond;
+}
+header{
+    align-content: center;
+}
+#banner{
+    width: 100%;
+    height: 450px;
+}
+.autor{
+    border-bottom: solid;
+    border-top: solid;
+}
+    .navigation ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      .navigation li {
+        float: left;
+        border-right:1px solid #bbb;
+      }
+      
+      .navigation li a {
+        display: block;
+        color: white;
+        padding: 12px 14px;
+        text-decoration: none;
+        text-align: center;
+      }
+      .active {
+        background-color: #8d278f;
+        color: white !important;
+       
+      }
+      .navigation li a:hover{
+        background-color: white;
+        color: black;
+      }
+fieldset{
+  border-color: black;
+}
+#xsica{
+  margin-left: 10px;
+  width: 50%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+}
+#ime{
+  font-weight: bold;
+}
+#smjer{
+  font-style: italic;
+}
+.logo
+{
+  text-align:center;
+}
+.logo img{
+  width: 20%;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table caption{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 0.5em;
+  text-align: left;
+  font-size: 20px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td[rowspan], td[colspan] {
+  text-align: center;
+}
+#slikeg img{
+  width: 30%;
+}
+.cc{
+  height: 13%;
+  width: 7%;
+}
+.HTML5{
+  height:10%;
+  width:5%;
+}
+input[type="reset"] {
+  border: black;
+  border-style: solid;
+  width: 150px;
+}
+
+input[type="submit"] {
+  border: black;
+  border-style: solid;
+  width: 150px;
+}
+
+#slikeg{
+  transition: transform .2s;
+}
+#slika1:hover,
+#slika2:hover,
+#slika3:hover,
+#slika4:hover,
+#slika5:hover{
+  transform: scale(1.5);
+}
+
+
+#cjenik tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+#cjenik tbody tr:hover {
+  background-color: rgb(211, 139, 139);
+}
+.ponude img{
+  width: 90%;
+  position: relative;
+}
+
+#karta{
+  width: 80%;
+}
+#video{
+  width: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.content {
+  grid-column: 1;
+}
+
+.ponude {
+  grid-column: 2;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.ponude img{
+  position: relative;
+  margin-top: 50px;
+  max-width: 80%;
+  height: auto;
+}
+
+.nav-item{
+  border-bottom: 1px solid black;
+}
+
+.nav-item a.nav-link {
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+}
+
+h1 + p{
+  color: #333;
+}
+
+a ~ figcaption{
+   font-weight: bold;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Hotel Frano</title>
+        <meta name="application-name" content="Hotel Frano">
+        <meta name="description" content="Opis hotela Frano">
+        <meta name="author" content="Vili Vugrinec">
+        <meta name="keywords" content="hotel,Frano,rezervacija">
+        <link href="../css/vvugrinec21.css" rel="stylesheet" type="text/css">
+        <link href="../css/vvugrinec21_responzivni_dizajn.css" rel="stylesheet" type="text/css">
+        
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Hotel Frano</h1>
+            <div class="logo">
+                <a href="index.html"><img src="dokumenti/slike/logo.png" alt="logo Hotela Frano"></a>
+                </div>
+        </header>
+
+    <nav class="navigation"> 
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="obrazac1.html">Obrazac za rezervaciju</a></li>
+                <li><a href="obrazac2.html">Obrazac za kontakt</a></li>
+                <li><a href="galerijaslika.html">Galerija slika</a></li>
+                <li><a href="ponudaproljece.html">Akcijska ponuda proljeće</a></li>
+                <li><a href="ponudavikend.html">Akcijska ponuda za vikend</a></li>
+                <li><a href="ponudapraznikrada.html">Akcijska ponuda za praznik rada</a></li>
+                <li><a href="autor.html">O autoru</a></li>
+                <li><a href="dokumentacija.html">Dokumentacija</a></li>
+                <li><a class="active" href="/dinamicna">Dinamicna</a></li>
+                <li><a href="/api/rezervacije">Rezervacije</a></li>
+            </ul>
+    </nav>
+    <div class="dropdown">
+      <button class="dropbtn">Izbornik</button>
+      <div class="dropdown-content">
+      <ul>
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="obrazac1.html">Obrazac za rezervaciju</a></li>
+          <li><a href="obrazac2.html">Obrazac za kontakt</a></li>
+          <li><a href="galerijaslika.html">Galerija slika</a></li>
+          <li><a href="ponudaproljece.html">Akcijska ponuda proljeće</a></li>
+          <li><a href="ponudavikend.html">Akcijska ponuda za vikend</a></li>
+          <li><a href="ponudapraznikrada.html">Akcijska ponuda za praznik rada</a></li>
+          <li><a href="autor.html">O autoru</a></li>
+          <li><a href="dokumentacija.html">Dokumentacija</a></li>
+          <li><a class="active" href="/dinamicna">Dinamicna</a></li>
+          <li><a href="/api/rezervacije">Rezervacije</a></li>        
+        </ul>
+      </div>
+  </div>
+        <main>
+
+            <img id="banner" src="dokumenti/slike/banner.jpg" alt="Banner">
+
+            <h2>Akcijske ponude</h2>
+            <div class = "ponude">
+            <figure>
+              <figcaption><a href="ponudaproljece.html"><h3>Uživajte u čarima proljeća u našem prekrasnom hotelu po akcijskoj cijeni!</h3></a></figcaption>
+              <a href="https://www.redyk.pl/en/"><img src="../dokumenti/slike/hotelproljece.jpg" alt="Slika za proljece"></a>
+            </figure> 
+            
+            <figure>
+              <figcaption><a href="ponudavikend.html"><h3>Uživajte u vikendu u našem prekrasnom hotelu po akcijskoj cijeni!</h3></a></figcaption>
+              <a href="https://www.ponudadana.hr/putovanja/putovanja-susjedstvo/Planinski-odmor-na-Vlasicu-odmor-iz-bajke-uz-2-nocenja-s-doruckom-za-2-osobe-gratis-paket-za-1-dijete-do-2-99-godina-u-Villi-Ugar-Vlasic-68878_1?a_aid=ie0pnwsvedj3&a_bid=76da3050&utm_source=affiliate&utm_medium=agreg&utm_campaign=svejetu.hr#_"><img src="../dokumenti/slike/vikend.jpg" alt="Slika za vikend"></a>
+            </figure> 
+            
+            <figure>
+              <figcaption><a href="ponudapraznikrada.html"><h3>Uživajte u prazniku rada u našem prekrasnom hotelu po akcijskoj cijeni!</h3></a></figcaption>
+              <a href="https://www.pexels.com/photo/black-mattress-in-front-of-a-large-window-behind-a-mountain-775219/"><img src="../dokumenti/slike/ponudaprazik.jpeg" alt="Slika za praznik rada"></a>
+            </figure> 
+          </div>
+          
+            <br>
+            <br>
+        <div class="table-responsive">

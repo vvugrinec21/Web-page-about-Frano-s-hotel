@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> Hotel Frano</title>
+        <meta name="application-name" content="Hotel Frano">
+        <meta name="description" content="Opis hotela Frano">
+        <meta name="author" content="Vili Vugrinec">
+        <meta name="keywords" content="hotel,Frano,rezervacija">
+        <link href="../css/vvugrinec21.css" rel="stylesheet" type="text/css">
+        <link href="../css/vvugrinec21_responzivni_dizajn.css" rel="stylesheet" type="text/css">
+        
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Hotel Frano</h1>
+            <div class="logo">
+                <a href="index.html"><img id="logoanime" src="dokumenti/slike/logo.png" alt="logo Hotela Frano"></a>
+                </div>
+        </header>
+
+    <nav class="navigation"> 
+            <ul>
+                <li><a class="active" href="index.html">Početna</a></li>
+                <li><a href="obrazac1.html">Obrazac za rezervaciju</a></li>
+                <li><a href="obrazac2.html">Obrazac za kontakt</a></li>
+                <li><a href="galerijaslika.html">Galerija slika</a></li>
+                <li><a href="ponudaproljece.html">Akcijska ponuda proljeće</a></li>
+                <li><a href="ponudavikend.html">Akcijska ponuda za vikend</a></li>
+                <li><a href="ponudapraznikrada.html">Akcijska ponuda za praznik rada</a></li>
+                <li><a href="autor.html">O autoru</a></li>
+                <li><a href="dokumentacija.html">Dokumentacija</a></li>
+                <li><a href="/dinamicna">Dinamicna</a></li>
+                <li><a href="/api/rezervacije">Rezervacije</a></li>
+            </ul>
+    </nav>
+    <div class="dropdown">
+      <button class="dropbtn">Izbornik</button>
+      <div class="dropdown-content">
+      <ul>
+          <li><a class="active" href="index.html">Početna</a></li>
+          <li><a href="obrazac1.html">Obrazac za rezervaciju</a></li>
+          <li><a href="obrazac2.html">Obrazac za kontakt</a></li>
+          <li><a href="galerijaslika.html">Galerija slika</a></li>
+          <li><a href="ponudaproljece.html">Akcijska ponuda proljeće</a></li>
+          <li><a href="ponudavikend.html">Akcijska ponuda za vikend</a></li>
+          <li><a href="ponudapraznikrada.html">Akcijska ponuda za praznik rada</a></li>
+          <li><a href="autor.html">O autoru</a></li>
+          <li><a href="dokumentacija.html">Dokumentacija</a></li>
+          <li><a href="/dinamicna">Dinamicna</a></li>
+          <li><a href="/api/rezervacije">Rezervacije</a></li>
+        </ul>
+      </div>
+  </div>
+        <main>
+
+            <img id="banner" src="dokumenti/slike/banner.jpg" alt="Banner">
+
+            <h2 id="h2id">Akcijske ponude</h2>
+            <div class = "ponude">
+            <figure>
+              <figcaption><a href="ponudaproljece.html"><h3>Uživajte u čarima proljeća u našem prekrasnom hotelu po akcijskoj cijeni!</h3></a></figcaption>
+              <a href="https://www.redyk.pl/en/"><img src="../dokumenti/slike/hotelproljece.jpg" alt="Slika za proljece"></a>
+            </figure> 
+            
+            <figure>
+              <figcaption><a href="ponudavikend.html"><h3>Uživajte u vikendu u našem prekrasnom hotelu po akcijskoj cijeni!</h3></a></figcaption>
+              <a href="https://www.ponudadana.hr/putovanja/putovanja-susjedstvo/Planinski-odmor-na-Vlasicu-odmor-iz-bajke-uz-2-nocenja-s-doruckom-za-2-osobe-gratis-paket-za-1-dijete-do-2-99-godina-u-Villi-Ugar-Vlasic-68878_1?a_aid=ie0pnwsvedj3&a_bid=76da3050&utm_source=affiliate&utm_medium=agreg&utm_campaign=svejetu.hr#_"><img src="../dokumenti/slike/vikend.jpg" alt="Slika za vikend"></a>
+            </figure> 
+            
+            <figure>
+              <figcaption><a href="ponudapraznikrada.html"><h3>Uživajte u prazniku rada u našem prekrasnom hotelu po akcijskoj cijeni!</h3></a></figcaption>
+              <a href="https://www.pexels.com/photo/black-mattress-in-front-of-a-large-window-behind-a-mountain-775219/"><img src="../dokumenti/slike/ponudaprazik.jpeg" alt="Slika za praznik rada"></a>
+            </figure> 
+          </div>
+          
+            <br>
+            <br>
+            <div class="table-responsive">
+            <table id="cjenik">
+                <caption>Cjenik hotela</caption>
+                <thead>
+                  <tr>
+                    <th class="usluga">Usluga</th>
+                    <th class="cijena">Cijena</th>
+                    <th class="opis">Opis</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2" class="usluga">Noćenja u hotelu</td>
+                    <td class="cijena">150 eura</td>
+                    <td class="opis">1 noćenje u standardnoj sobi</td>
+                  </tr>
+                  <tr>
+                    <td class="cijena">600 eura</td>
+                    <td class="opis">1 noćenje u deluxe sobi</td>
+                  </tr>
+                  <tr>
+                    <td class="usluga">Korištenje teretane</td>
+                    <td class="cijena">10 eura</td>
+                    <td class="opis">Korištenje teretane za vrijeme boravka u hotelu</td>
+                  </tr>
+                  <tr>
+                    <td class="usluga">Korištenje bazena</td>
+                    <td class="cijena">10 eura</td>
+                    <td class="opis">Neograničeno korištenje unutranjih bazena hotela</td>
+                  </tr>
+                  <tr>
+                    <td class="usluga">Korištenje golf terena</td>
+                    <td colspan="2" class="cijena">80 eura</td>
+                  </tr>
+                  <tr>
+                    <td class="usluga">SPA/wellness centar</td>
+                    <td class="cijena">100 eura</td>
+                    <td class="opis">Gosti mogu uživati u različitim tretmanima kao što su masaže, hidroterapija i sauna.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          <br>
+          <h2>Interaktivna slika:</h2>
+          
+        <img id="interaktivna" src="https://images.pexels.com/photos/96444/pexels-photo-96444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Slika hotela" usemap="#image-map">
+
+        <map name="image-map">
+        <area  alt="Zarulja" title="Zarulja" href="https://www.electrahotels.gr/" coords="470,1274,36" shape="circle">
+        <area  alt="SlovoL" title="SlovoL" href="https://www.l-hotel.com/" coords="378,528,357,684,573,690,569,655,418,647,425,529" shape="poly">
+        <area  alt="SlovoT" title="SlovoT" href="https://www.hotel-turist.hr/" coords="402,281,399,312,439,316,442,364,481,367,482,316,524,318,525,284" shape="poly">
+        </map>
+
+          <p>Kod slike iznad pritisak na slovo T vodi na stranicu hotela Turist, pritisak na žarulju vodi na stranicu Electra hotela, a pritisak na slovo L vodi na L-Hotel.</p>
+          <h3>Lokacija hotela</h3>
+          <iframe id="karta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88184.85907996302!2d16.203557265415466!3d46.314269167953135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4768aad77b4500b1%3A0x7fb153fb542c9013!2sPark%20Boutique%20Hotel!5e0!3m2!1shr!2shr!4v1680165608704!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br>
+          <h2>Video</h2>
+          <video id="video" width="550" height="400" controls>
+            <source src="../dokumenti/multimedija/video.m4v" type="video/mp4">
+          </video> 
+
+        </main>
+        <script src="../jsk/vvugrinec21.js"></script>
+      <footer>
+    <p>&copy; Vili Vugrinec 2023.</p>
+    <a href="https://creativecommons.org/licenses/by/2.0/"><img class="cc" src="dokumenti/slike/by.png" alt="CC BY licenca"></a>
+    <br>
+    <a href="https://validator.w3.org/check?uri=http://spider.foi.hr/OWT/2023/zadaca_02/vvugrinec21/index.html" target="_blank"><img class="HTML5" src="dokumenti/slike/HTML5.png" alt="HTML Validator"></a>
+  </footer>
+    
+</body>
+
+</html> 

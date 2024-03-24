@@ -1,0 +1,54 @@
+[
+    {
+      "Usluga": "Noćenja u hotelu",
+      "Cijena": "150 eura",
+      "Opis": "1 noćenje u standardnoj sobi"
+    },
+    {
+      "Usluga": "Noćenja u hotelu",
+      "Cijena": "600 eura",
+      "Opis": "1 noćenje u deluxe sobi"
+    },
+    {
+      "Usluga": "Korištenje teretane",
+      "Cijena": "10 eura",
+      "Opis": "Korištenje teretane za vrijeme boravka u hotelu"
+    },
+    {
+      "Usluga": "Korištenje bazena",
+      "Cijena": "10 eura",
+      "Opis": "Neograničeno korištenje unutranjih bazena hotela"
+    },
+    {
+      "Usluga": "Korištenje golf terena",
+      "Cijena": "80 eura",
+      "Opis": "-"
+    },
+    {
+      "Usluga": "SPA/wellness centar",
+      "Cijena": "100 eura",
+      "Opis": "Gosti mogu uživati u različitim tretmanima kao što su masaže, hidroterapija i sauna."
+    },
+
+    {
+        "Usluga": "Doručak",
+        "Cijena": "10 eura",
+        "Opis": "Bogat izbor jela za doručak"
+      },
+      {
+        "Usluga": "Ručak",
+        "Cijena": "20 eura",
+        "Opis": "Ukusni meni s više slijedova"
+      },
+      {
+        "Usluga": "Večera",
+        "Cijena": "25 eura",
+        "Opis": "Ekskluzivna gastronomska ponuda za večernje obroke"
+      },
+      {
+        "Usluga": "Masaža",
+        "Cijena": "50 eura",
+        "Opis": "Profesionalna masaža za opuštanje i revitalizaciju"
+      }
+  ]
+  

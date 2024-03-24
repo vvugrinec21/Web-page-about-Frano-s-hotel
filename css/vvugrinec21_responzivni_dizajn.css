@@ -1,0 +1,277 @@
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) {
+    
+    body,main,figcaption{
+        overflow-x: hidden;
+        background-color: darkblue !important;
+        color: white;
+      }
+      #interaktivna{
+        width: 100%;
+      }
+
+      #obrazac1{
+        display: flex;
+      }
+  
+      #podaci,#rezervacija{
+        float:left; display:inline; width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      legend {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      input[type="text"],
+      input[type="date"],
+      input[type="time"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+      }
+      
+      input[type="checkbox"] {
+        margin-bottom: 10px;
+      }
+      
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+      
+       input[type="submit"],
+       input[type="reset"] {
+        display: inline-block;
+        padding: 5px 10px;
+    
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+  
+  }
+  
+  @media screen and (min-width: 1025px) {
+    body {
+        overflow-x: hidden;
+    }
+    #obrazac1{
+      display: flex;
+    }
+
+    #podaci,#rezervacija{
+      float:left; display:inline; width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    legend {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="time"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    
+    input[type="checkbox"] {
+      margin-bottom: 10px;
+    }
+    
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+    
+     input[type="submit"],
+     input[type="reset"] {
+      display: inline-block;
+      padding: 5px 10px;
+  
+      text-align: center;
+      text-decoration: none;
+      font-size: 15px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    
+  }
+
+    .dropdown-content a:hover {background-color: white; color: black;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: magenta;}
+
+    .dropdown {
+      overflow: hidden;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      width: 100%;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+    }
+    .dropdown {
+      display: none;
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: blue;
+      background-color: #333;
+      font-family: inherit;
+      width: 100%;
+    }
+    .dropdown-content ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+        background-color: #333;
+        color: white;
+
+      }
+      .dropdown-content li{
+        display: flex;
+        flex-wrap: wrap;
+        border-right:1px solid #bbb;
+        color: white;
+      }
+
+
+
+      @media screen and (max-width: 480px) {
+        .cijena{
+           display: none;
+        }
+        .opis
+        {
+           display: none;
+        }
+       
+       #slikeg img{
+       width: 100%;
+       height: auto;
+       display: block;
+       }
+       #slikeg {
+           display: flex;
+           flex-wrap: wrap;
+         }
+         body {
+           overflow-x: hidden;
+         }
+       figure{
+           margin: 0;
+       }
+       body{
+           margin: 0;
+       }
+       #interaktivna{
+         width: 100%;
+       }
+       .dropdown{
+         display: block;
+         overflow: hidden;
+         width: 100%;
+         justify-content: center;
+       }
+       .dropbtn
+       {
+        padding: 2%;
+        overflow: hidden;
+         width: 100%;
+         color: white;
+         background-color: #333;
+         border-color: #333;
+       }
+       .navigation{
+         display: none;
+       }
+
+
+      #podaci,
+      #rezervacija{
+      display: block;
+      }
+
+    
+       input[type="text"],
+       input[type="date"],
+       input[type="time"],
+       select,
+       textarea {
+       width: 90%;
+       
+       }   
+
+      
+       label {
+       display: block;
+        margin-top: 10px;
+         margin-bottom: 5px;
+          }
+       
+     }
+
+
+     .error-message {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ff0000;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+
+
+
